@@ -6,6 +6,7 @@ edition = "2024"
 [dependencies]
 alloy = { version = "1.0.16", features = ["full"] }
 alloy-rpc-types-mev = "1.0.16"
+alloy-provider = { version = "1.0.16", features = ["mev-api"] }
 alloy-json-rpc = "1.0.16"
 eyre = "0.6.12"
 tokio = { version = "1.45.1", features = ["full"] }

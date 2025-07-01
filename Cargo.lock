@@ -331,6 +331,7 @@ dependencies = [
  "alloy-rpc-types-anvil",
  "alloy-rpc-types-debug",
  "alloy-rpc-types-eth",
+ "alloy-rpc-types-mev",
  "alloy-rpc-types-trace",
  "alloy-rpc-types-txpool",
  "alloy-signer",
@@ -3221,6 +3222,7 @@ version = "0.1.0"
 dependencies = [
  "alloy",
  "alloy-json-rpc",
+ "alloy-provider",
  "alloy-rpc-types-mev",
  "dotenv",
  "eyre",
